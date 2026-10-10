@@ -2,7 +2,7 @@
 > npm init playwright@latest 
 
  **Run Test Script**
-> npx playwright test ./tests/(js file)
+> npx playwright test ./tests/(js file) --project chromium/firefox/webkit --headed
 
 **Push Playwright code to GitHUB**
 > git init
